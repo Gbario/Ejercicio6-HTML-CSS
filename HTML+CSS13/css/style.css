@@ -1,0 +1,185 @@
+/* https://dribbble.com/ */
+*{
+    margin: 20px;
+    scale: 1.01;
+    padding: 0;
+    font-family:  'Ubuntu', sans-serif;
+    color: white;
+}
+
+.container{
+    font-size: x-large;
+    letter-spacing: -1px;
+    margin-top: 0;
+    
+    
+}
+
+.all{
+    display: flex;
+    justify-content: space-;
+    margin-top: 0;
+
+}
+.quick-login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    justify-content: left;
+    
+    
+}
+.google-login{
+background-color: rgb(83, 125, 240);
+color: white;
+display: flex;
+flex-wrap: nowrap;
+letter-spacing: 0;
+width: fit-content;
+height: fit-content;
+border-radius: 5px;
+align-items: center;
+padding: 0;
+justify-content: center;
+transition: .3s;
+margin: 0;
+
+}
+.google-login:hover{
+    background-color: rgb(90, 153, 235);
+    
+    cursor: pointer;
+}
+
+.google-logo{
+    background-color: white;
+    
+    background-size: contain;
+    border-radius: 3px;
+    border: 0;
+    margin: 8px;
+    padding: 0;
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+   
+    
+    color: rgb(83, 125, 240);;
+}
+.quick-login{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.twitter-button{
+margin: 0;
+font-size: xx-large;
+border: 0;
+border-radius: 7px;
+padding: 6px;
+cursor: pointer;
+margin-left: 5px;
+background-color: rgb(180, 180, 180);
+transition: .3s;
+
+}
+.twitter-button:hover{
+    background-color: rgba(128, 128, 128, 0.315);
+}
+.divider{
+    display: flex;
+    width: 700px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+   flex-grow: 60%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding-bottom: 30px;
+    opacity: .4;
+
+}
+.line{
+   display: inline-block;
+   width: 300px;
+   
+}
+.form{
+   
+    margin: 0;
+    padding: 0;
+}
+.text{
+    margin: 0;
+    padding: 0;
+    
+}
+.input{
+    background-color: #212121;
+    border: 0;
+    border-radius: 10px;
+    width: 700px;
+    height: 60px;
+    
+    padding-left: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+.input:hover{
+    box-shadow: 0px 0px 15px rgba(46, 102, 255, 0.39);
+    background-color: #454045;
+    
+}
+.password{
+    width: 1100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.sign-in{
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(216, 95, 151);
+padding: 20px;
+margin: 0;
+border: 0;
+    border-radius: 10px;
+    width: 700px;
+    height: 60px;
+    
+    padding-left: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+    height: fit-content;
+    color: rgba(240, 240, 240, 0.918);
+    transition: .1s;
+
+}
+
+
+.sign-in:hover{
+    background-color:rgb(216, 75, 141);
+}
+
+.sign-up{
+    display: block;
+margin-left: 150px;
+margin-top: 30px;
+}
+.checkbox{
+    
+}
